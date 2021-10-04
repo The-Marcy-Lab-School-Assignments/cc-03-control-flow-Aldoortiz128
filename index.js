@@ -23,11 +23,13 @@ function betweenFiveandTwenty(num){
 }
 
 //5 
-function isAllowerCase(){
-  
-}
+function isAllowerCase(string){
+  if (string.toLowerCase() === string){console.log("True")}
+  else {console.log("False")};
+} 
 
 countFromOne(2);
 countEveryOdd(7);
 isNegative(3);
 betweenFiveandTwenty(2);
+isAllowerCase("I am legend");
