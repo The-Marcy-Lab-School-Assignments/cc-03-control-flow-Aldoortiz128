@@ -1,25 +1,35 @@
 //1
-function countToTen(){
-  
+function countFromOne(num){
+    for (i = 1; i < num; i++) {console.log(i);}
 }
 
 //2
-function countFromOne(){
+function countEveryOdd(num){
+    for (i = 0; i < num; i++) {if (i%2) {console.log(i);}}
   
 }
 
 //3
-function countEveryEven(){
+function isNegative(num){
+    if (num < 0) {console.log("True")}
+    else {console.log("False")};
   
 }
 
 //4
-function countEveryOdd(){
-  
+function betweenFiveandTwenty(num){
+  if (num >= 5 && num <=20) {console.log("True")}
+  else {console.log("False")};
 }
 
 //5 
-function countEvens(){
-  
-}
+function isAllowerCase(string){
+  if (string.toLowerCase() === string){console.log("True")}
+  else {console.log("False")};
+} 
 
+countFromOne(2);
+countEveryOdd(7);
+isNegative(3);
+betweenFiveandTwenty(2);
+isAllowerCase("I am legend");
